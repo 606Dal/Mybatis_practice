@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd">
+<generatorConfiguration>
+
+  <context id="simple" targetRuntime="MyBatis3">
+    <jdbcConnection connectionURL="jdbc:mysql://localhost:3306/spboard" 
+    driverClass="com.mysql.jdbc.Driver" 
+    userId="" 
+    password="" />
+    <javaModelGenerator targetPackage="com.spring.mybatis02.model" 
+    targetProject="myBatisDemo_02" />
+    <sqlMapGenerator targetPackage="com.spring.mybatis02.model" 
+    targetProject="myBatisDemo_02" />
+    <javaClientGenerator targetPackage="com.spring.mybatis02.model" 
+    targetProject="myBatisDemo_02" 
+    type="XMLMAPPER" />
+    <table schema="spboard" 
+    tableName="mybatis_member">
+     <!--  <columnOverride column="???" 
+      property="???" /> -->
+    </table>
+  </context>
+</generatorConfiguration>
