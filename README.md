@@ -10,7 +10,7 @@
 2. 데이터베이스 : MySQL 8.0.34 (connector-j-8.0.33)
 3. WAS : Apache Tomcat 9.0
 4. Bootsorap5 v5.3
-5. mibatis 3.2.8
+5. mybatis 3.2.8
 6. Mybatis Generator 1.4.2(Eclipse Marketplace)
 ---
 기간 : 2024-04-08 ~ 2024-04-11
